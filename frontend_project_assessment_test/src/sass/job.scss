@@ -1,0 +1,40 @@
+.job {
+  width: 600px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 5px;
+  margin: 10px 0;
+
+  .title-ud {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form-txt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .title-txt {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  }
+}
